@@ -21,4 +21,3 @@ export default function order(words:string):string {
     return aIndex > bIndex ? 1 : -1;
   }).join(' ');
 }
-
