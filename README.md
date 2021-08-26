@@ -24,3 +24,4 @@ _Optional: To run a linting check, `npm run lint`._
 1. Write a simple parser that will parse and run [Deadfish](https://www.codewars.com/kata/51e0007c1f9378fa810002a9/train/typescript)</li>
 2. Calculate the [digital root](https://en.wikipedia.org/wiki/Digital_root) of a number - [link](https://www.codewars.com/kata/541c8630095125aba6000c00)
 3. Sort a given string. Each word in the string will contain a single number - [link](https://www.codewars.com/kata/55c45be3b2079eccff00010f/train/typescript)
+4. Fold an array - [link](https://www.codewars.com/kata/57ea70aa5500adfe8a000110/train/typescript)
