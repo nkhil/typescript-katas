@@ -10,13 +10,12 @@
 
 
 export default function diagonalDifference(arr: number[][]): number {
-  const leftToRightTotal: number = arr.reduce((acc: number, val: number[], currentIndex: number): number => {
-    const el = val[currentIndex];
-    return acc + el;
-  }, 0);
-  const rightToLeftTotal: number = arr.reverse().reduce((acc: number, val: number[], currentIndex: number): number => {
-    const el = val[currentIndex];
-    return acc + el;
-  }, 0);
-  return Math.abs(leftToRightTotal - rightToLeftTotal);
+  const leftAndRightDiagonalTotals: number[] = arr.reduce((acc: number[], val: number[], currentIndex: number): number[] => {
+    const leftEl = val[currentIndex];
+    const rightEl = [...val].reverse()[currentIndex];
+    acc[0] = acc[0] + leftEl;
+    acc[1] = acc[1] + rightEl;
+    return acc;
+  }, [0, 0]);
+  return leftAndRightDiagonalTotals.reduce((a, b) => Math.abs(a - b), 0);
 }
