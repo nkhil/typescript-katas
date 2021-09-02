@@ -6,7 +6,7 @@
 // Then print the respective minimum and maximum values 
 // as a single line of two space-separated long integers.
 // [1, 3, 5, 7, 9] => 1 + 3 + 5 + 7 = 16 && [3, 5, 7, 9] = 24
-// returns [16, 24]
+// returns [16, 24] 
 
 export default function miniMaxSum(arr: number[]): void {
   const maxNum: number = Math.max(...arr);
