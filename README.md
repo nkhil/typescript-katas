@@ -28,3 +28,6 @@ The numbers below correspond to the files in the `./src` folder.
 3. Sort a given string. Each word in the string will contain a single number - [link](https://www.codewars.com/kata/55c45be3b2079eccff00010f/train/typescript)
 4. Fold an array - [link](https://www.codewars.com/kata/57ea70aa5500adfe8a000110/train/typescript)
 5. Given a square matrix, calculate the absolute difference between the sums of its diagonals - [link](https://www.hackerrank.com/challenges/diagonal-difference/problem)
+6. Given an array of integers, calculate the ratios of its elements - [link](https://www.hackerrank.com/challenges/plus-minus/problem)
+7. Console log a right-aligned tree using '#'
+8. Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers - [link](https://www.hackerrank.com/challenges/mini-max-sum/problem?h_r=next-challenge&h_v=zen).
